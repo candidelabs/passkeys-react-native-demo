@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "abstractionkit-rn-passkeys-example",
+    "slug": "abstractionkit-rn-passkeys-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.adi52.abstractionkitrnpasskeysexample",
+      "appleTeamId": "FZZKKA62H4",
+      "associatedDomains": [
+        "37dd-178-19-186-193.ngrok-free.app"
+      ]
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.adi52.abstractionkitrnpasskeysexample"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1e59e6a7-f7bf-407b-8341-2fd2394f1495"
+      }
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}
