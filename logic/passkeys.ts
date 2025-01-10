@@ -416,7 +416,7 @@ export {
 //       jsonRPCProvider,
 //       bundlerUrl,
 //       {
-//         dummySignerSignaturePairs: [WebauthnDummySignerSignaturePair],
+//         expectedSigners: [passkey.pubkeyCoordinates],
 //         preVerificationGasPercentageMultiplier: 120,
 //         verificationGasLimitPercentageMultiplier: 120,
 //       },
@@ -476,7 +476,7 @@ export {
 //       jsonRPCProvider,
 //       bundlerUrl,
 //       {
-//         dummySignerSignaturePairs: [WebauthnDummySignerSignaturePair],
+//         expectedSigners: [passkey.pubkeyCoordinates],
 //         preVerificationGasPercentageMultiplier: 120,
 //         verificationGasLimitPercentageMultiplier: 120,
 //       },
@@ -525,7 +525,7 @@ export {
 //       jsonRPCProvider,
 //       bundlerUrl,
 //       {
-//         dummySignerSignaturePairs: [WebauthnDummySignerSignaturePair],
+//         expectedSigners: [passkey.pubkeyCoordinates],
 //         preVerificationGasPercentageMultiplier: 120,
 //         verificationGasLimitPercentageMultiplier: 120,
 //         eip7212WebAuthnPrecompileVerifier: '0x0000000000000000000000000000000000000100',

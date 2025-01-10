@@ -9,16 +9,16 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "abstractionkit": "0.2.0",
+    "abstractionkit": "^0.2.9",
     "cbor-web": "^10.0.3",
     "ethers": "^6.13.4",
     "expo": "~52.0.20",
+    "expo-secure-store": "~14.0.0",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
     "react-native": "0.76.5",
     "react-native-get-random-values": "^1.11.0",
-    "react-native-passkey": "^3.0.0",
-    "expo-secure-store": "~14.0.0"
+    "react-native-passkey": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

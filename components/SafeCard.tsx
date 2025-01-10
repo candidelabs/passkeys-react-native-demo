@@ -75,7 +75,7 @@ function SafeCard({ passkey }: { passkey: string }) {
         jsonRPCProvider,
         bundlerUrl,
         {
-          dummySignatures: [WebauthnDummySignerSignaturePair],
+          expectedSigners: [parsedPasskey.pubkeyCoordinates],
           preVerificationGasPercentageMultiplier: 120,
           verificationGasLimitPercentageMultiplier: 120,
         }
